@@ -4571,6 +4571,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Milkomeda A1 Mainnet",
+  "chain": "milkALGO",
+  "icon": "milkomeda",
+  "rpc": ["https://rpc-mainnet-algorand-rollup.a1.milkomeda.com", "wss://rpc-mainnet-algorand-rollup.a1.milkomeda.com/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "milkALGO",
+    "symbol": "mALGO",
+    "decimals": 18
+  },
+  "infoURL": "https://milkomeda.com",
+  "shortName": "milkALGO",
+  "chainId": 2002,
+  "networkId": 2002,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer-mainnet-algorand-rollup.a1.milkomeda.com",
+    "standard": "none"
+  }]
+}, {
   "name": "CloudWalk Testnet",
   "chain": "CloudWalk Testnet",
   "rpc": [],
@@ -6210,19 +6230,24 @@
   "chainId": 10000,
   "networkId": 10000
 }, {
-  "name": "Smart Bitcoin Cash Testnet",
-  "chain": "smartBCHTest",
-  "rpc": ["https://rpc-testnet.smartbch.org", "https://smartbch.devops.cash/testnet"],
+  "name": "EthereumPoW Mainnet",
+  "chain": "ETHW",
+  "rpc": ["https://mainnet.ethereumpow.org"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Bitcoin Cash Test Token",
-    "symbol": "BCHT",
+    "name": "ETHW",
+    "symbol": "ETHW",
     "decimals": 18
   },
-  "infoURL": "http://smartbch.org/",
-  "shortName": "smartbchtest",
+  "infoURL": "https://ethereumpow.org",
+  "shortName": "ethw",
   "chainId": 10001,
-  "networkId": 10001
+  "networkId": 10001,
+  "explorers": [{
+    "name": "ethwscan",
+    "url": "https://mainnet.ethwscan.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Gon Chain",
   "chain": "GonChain",
